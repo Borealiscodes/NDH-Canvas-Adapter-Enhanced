@@ -1,0 +1,53 @@
+% =========================================================================
+% MODULE: CORE MATHEMATICS & RIGOROUS SPECIFICATION
+% =========================================================================
+
+\section{Rigorous Mathematical Specification}
+\label{sec:core_math}
+
+The structural canvas control architecture projects continuous transformations across a high-dimensional phase space bounded on a smooth Riemannian manifold $\mathcal{M} \subset \mathbb{R}^{80}$. This section details the algebraic layers governing spatial normalization, symplectic dimension reduction, and deterministic mapping.
+
+\subsection{Phase Space Normalization and Epsilon Safety Floors}
+Let $\mathbf{x} = [x_1, x_2, \dots, x_{80}]^T \in \mathbb{R}^{80}$ define a raw coordinate vector within the latent phase space. To prevent representation crowding and guarantee structural boundaries on a unit hypersphere, the vector undergoes an apex normalization layer with an explicit numerical safety floor:
+
+\begin{equation}
+    \bar{\mathbf{x}} = \frac{\mathbf{x}}{\max\left(\|\mathbf{x}\|_2, \, \epsilon\right)}
+\end{equation}
+
+Where $\|\cdot\|_2$ denotes the standard Euclidean $L_2$ norm, and $\epsilon \in \mathbb{R}^+$ represents a static safety parameter assigned a strict lower bound to eliminate singularity thresholds during radial diffusion operations:
+\begin{equation}
+    \epsilon = 10^{-9}
+\end{equation}
+
+\subsection{Split-Barycentric Dimensionality Reduction}
+The reduction of the normalized 80-dimensional phase vector $\bar{\mathbf{x}}$ into an interpretable 2D studio canvas coordinate $\mathbf{p} = [u, v]^T \in [-1, 1]^2$ is governed by an automated split-barycentric projection layout. The high-dimensional coordinates are split into equal structural blocks, yielding independent scalar projections:
+
+\begin{equation}
+    u = \frac{2}{D} \sum_{i=1}^{D/2} \bar{x}_i, \quad \text{where } D = 80
+\end{equation}
+\begin{equation}
+    v = \frac{2}{D} \sum_{i=(D/2)+1}^{D} \bar{x}_i
+\end{equation}
+
+This split guarantees that orthogonal subspaces within the continuous 80D manifold map independently to the canvas horizontal and vertical dimensions, maintaining spatial volume properties without cross-dimensional contamination.
+
+\subsection{Barycentric Grid Tessellation and Chromatic Indexing}
+To transition from continuous phase space locations to discrete studio applications, the projected space is partitioned using a regular layout grid of resolution $R \in \mathbb{N}$. The continuous coordinate vector $\mathbf{p} = [u, v]^T$ is mapped into a discrete layout bin vector $\mathbf{b} = [b_x, b_y]^T \in \{0, 1, \dots, R-1\}^2$ via the following floor functions:
+
+\begin{equation}
+    b_x = \min\left(\left\lfloor \frac{u + 1.0}{2.0} \cdot R \right\rfloor, \, R - 1\right)
+\end{equation}
+\begin{equation}
+    b_y = \min\left(\left\lfloor \frac{v + 1.0}{2.0} \cdot R \right\rfloor, \, R - 1\right)
+\end{equation}
+
+Once isolated within an immutable layout bin $\mathbf{b}$, a high-probability color index $\mathcal{C}(\mathbf{b}) \in \{0, 1, \dots, 255\}$ is programmatically assigned. This formalizes manual chromatic zoning via a deterministic linear congruential hash:
+
+\begin{equation}
+    \mathcal{C}(\mathbf{b}) = (b_x \cdot \alpha + b_y \cdot \beta) \pmod{256}
+\end{equation}
+
+Where $\alpha$ and $\beta$ represent prime weight scalars chosen to enforce uniform spatial dispersion of color boundaries across adjacent bins:
+\begin{equation}
+    \alpha = 7, \quad \beta = 13
+\end{equation}

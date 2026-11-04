@@ -1,0 +1,7 @@
+[package]
+name = "ndh_canvas_verification"
+version = "0.1.0"
+defaultTargets = ["NdhCanvasVerification"]
+
+[[lean_lib]]
+name = "NdhCanvasVerification"

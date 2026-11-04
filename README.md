@@ -1,52 +1,51 @@
 # 🏗 NDH‑Canvas-Adapter-Enhanced
 
-An explicit geometric interpretability substrate and structural canvas control architecture designed to interface high-dimensional Riemannian phase spaces with deterministic studio practice. 
+An explicit geometric interpretability substrate and structural canvas control architecture designed to interface high-dimensional Riemannian phase spaces with deterministic studio practice.
 
----
+⚠ NOTICE: Conceptual Systems-Art Framework & Generative Provenance
 
-## 🎨 Conceptual Lineage: The Pictorial Fictions Connection
+This repository functions as a theoretical systems-art architecture blueprint and conceptual specification rather than a peer-reviewed, empirically validated industrial engineering package.
+The framework combines generative AI-derived mathematical analogies—such as 80-dimensional Riemannian manifolds (\(\mathcal{M} \subset \mathbb{R}^{80}\)), kinetic parameters, and environmental Life Cycle Assessments—with functional studio prototypes (lh_adapter.py and NdhCanvasVerification.lean). These tools explore digital instability and coordinate containment locally, but lack industrial safety certification and require independent engineering validation before any physical or mechanical deployment.
 
-This framework builds upon the conceptual lineage of **Simon Ingram’s 2026 solo exhibition, *Pictorial Fictions – Painting from Frances Hodgkins' Latent Space* (Dunedin Public Art Gallery)**. 
+Hedling, B. S. (2026). NDH-Surrealism (v1.0): An Algorithmic RFC and Conceptual Specimen for Generative Latent Deposition (Version v1.0). Zenodo. https://doi.org/10.5281/zenodo.23963389
 
-Ingram’s exhibition explored the transition of machine learning fictions back to the physical canvas by segmenting AI-generated latent space layers into chromatic zones and hand-painting them onto board. This adapter directly codifies that human-in-the-loop methodology into an explicit, automated mathematical interface:
+🎨 Conceptual Lineage: The Pictorial Fictions Connection
 
-* **From Generative Search to Bounded Physics:** While *Pictorial Fictions* accepts the statistical output of a black-box machine learning model as a closed-shop generator, this adapter introduces programmatic controls onto the high-dimensional phase space before canvas rendering.
-* **Algorithmic Zoning Automation:** Ingram’s manual process of partitioning abstract compositions into distinct color zones is formalized here via the **Tessellation Bee Segmentation Core**. The engine reads 80D coordinate array variables and maps them instantly into deterministic, reproducible 2D layout bins and high-probability color indexes ready for robotic arms or canvas plotting systems.
+Built upon Simon Ingram’s 2026 solo exhibition, Pictorial Fictions – Painting from Frances Hodgkins' Latent Space (Dunedin Public Art Gallery), this adapter codifies manual chromatic zoning into an automated mathematical interface:
+* From Generative Search to Bounded Physics: Replaces black-box statistical outputs with programmatic controls applied to the high-dimensional phase space prior to canvas rendering.
+* Algorithmic Zoning Automation: Uses the Tessellation Bee Segmentation Core to map 80D coordinate array variables into deterministic 2D layout bins and color indexes for robotic arms or plotters.
 
----
+🌾 Theoretical Foundations & Core Primitives
 
-## 🌾 Theoretical Foundations & Core Primitives
+The adapter implements Meadow Pedagogy using explicit geometric primitives to establish interpretable boundaries:
+• 🐝 Tessellation Bees: Barycentric coordinate grids for hexagonal latent space partitioning.
+• 🌀 Mandala Cognition: Index-symmetric metric tensor deformations under forced Ricci-flow.
+• 🌿 Meadow Pedagogy: Sequential token evolution tracked as continuous parallel transport.
+• 🐐 Manifold Goats: Hyperbolic saddle mapping to prevent representation crowding.
 
-The adapter implements **Meadow Pedagogy**—replacing hidden statistical parameters with explicit geometric primitives to establish mathematically interpretable boundaries:
+⚙ Rigorous Mathematical Specifications
 
-* **🐝 Tessellation Bees (Hexagonal Partitioning):** Barycentric coordinate grids partitioning latent spaces into immutable layout bins.
-* **🌀 Mandala Cognition (Radial Symmetry):** Index-symmetric metric tensor deformations under forced Ricci-flow.
-* **🌿 Meadow Pedagogy (Path-Dependent Holonomy):** Sequential token evolution tracked as continuous parallel transport.
-* **🐐 Manifold Goats (Hyperbolic Saddle Mapping):** Explicit non-Euclidean saddle curvatures preventing representation crowding.
+Transforms across the 80-dimensional Riemannian manifold (\(\mathcal{M} \subset \mathbb{R}^{80}\)) are managed via:
+* Metric Index Symmetry: Enforces strict tensors across incoming grids.
+* Symplectic Phase-Space Volume Preservation: Isolates scaling shifts to localized coordinate envelopes.
+* Radial 9D Laplacian Diffusion: Utilizes an epsilon safety floor (epsilon = 1e-6) to prevent division-by-zero errors.
+* Apex Gradient Vector Normalization: Compresses vector tracks into a bounded unit-radius hypersphere (\(v / \max(v, \epsilon) \le 1\)).
 
----
+🛠 Project Scaffolding & Directory Tree
 
-## ⚙ Rigorous Mathematical Specifications
+The repository is structured with modular directories for demo scripts, documentation, core Python routines (ndh_canvas_adapter), pytest test suites, Lean 4 formal verification proofs, and orchestration makefiles.
 
-The execution engine projects continuous transformations across an 80-dimensional smooth Riemannian manifold $\mathcal{M} \subset \mathbb{R}^{80}$ via core algebraic layers including metric index symmetry, symplectic phase-space volume preservation, radial 9D Laplacian diffusion with epsilon safety floors, and apex gradient vector normalization. 
+🚀 Localized Pipeline Orchestration
 
----
+The framework emphasizes localized execution and workspace sovereignty through standard make commands (make env, make format, make test) and Lean 4 build targets (lake build).
 
-## 🛠 Project Scaffolding & Directory Tree
+📜 Ethical Licensing & Boundary Disclaimers
 
-The multi-kernel directory structure organizes core Python routines, Pytest test suites, and Lean 4 dependent type verification stubs.
+The project is released under an open-source ethical framework tailored for artistic and academic research, with strict prohibitions against military, kinetic targeting, or aerospace/safety-critical flight control deployments.
 
----
+📑 Provenance
 
-## 🚀 Localized Pipeline Orchestration
-
-The framework prioritizes **Workspace Sovereignty**, running entirely on localized hardware:
-* Initialize environment: `make env`
-* Format code: `make format`
-* Run validation suite: `make test`
-
----
-
-## 📜 Ethical Licensing & Boundary Disclaimers
-
-Released under a protective open-source ethical architecture prohibiting military or kinetic targeting deployments while remaining uncertified for aerospace navigation or flight controls.
+* Artifact-Class: Automated Studio Substrate (Interpretability Layer)
+* Design Track: NDH-RESEARCH-PILOT / Sub-Track: Autonomic Canvas Execution
+* Maintainer: Borealis S. Hedling & The Studio Compiler Network
+* Seal: [ NDH . CANVAS . ADAPTER . ENHANCED . v1_0 ]

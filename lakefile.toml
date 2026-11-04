@@ -1,7 +1,31 @@
-[package]
-name = "ndh_canvas_verification"
-version = "0.1.0"
+id = "ndh_canvas_adapter_enhanced"
+name = "ndh_canvas_adapter_enhanced"
+version = "1.0.0"
+keywords = ["systems-art", "formal-verification", "geometry-lab", "manifold-guards"]
 defaultTargets = ["NdhCanvasVerification"]
 
-[[lean_lib]]
+# ====================================================================
+# LEAN WORKSPACE ENVIRONMENT CONFIGURATION
+# ====================================================================
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+
+# ====================================================================
+# UPSTREAM SCHOLARLY DATASET DEPENDENCIES
+# ====================================================================
+
+[[require]]
+name = "mathlib"
+git = "https://github.com"
+rev = "v4.15.0"
+
+# ====================================================================
+# STRUCTURAL BUILD TARGET ARCHITECTURES
+# ====================================================================
+
+[[leanLib]]
 name = "NdhCanvasVerification"
+srcDir = "."
+roots = ["NdhCanvasVerification"]

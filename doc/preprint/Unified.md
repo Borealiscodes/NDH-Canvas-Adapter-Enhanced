@@ -17,6 +17,8 @@ When attempting to transfer these configurations onto a physical canvas, creator
 1.1 The Pictorial Fictions Connection
 
 This framework formalizes the human-in-the-loop methodology pioneered in Simon Ingram's Pictorial Fictions – Painting from Frances Hodgkins' Latent Space exhibition. Ingram’s practice addressed this algorithmic gap by treating machine learning fictions not as final art pieces, but as active terrain. By manually segmenting the latent layers of AI models into distinct chromatic zones and hand-painting them onto board, his work highlighted the transition from abstract digital models back to tactile material.
+
+<pre> 
 +------------------------------------+
 
 | Continuous 80D Riemannian Manifold |
@@ -45,6 +47,9 @@ This framework formalizes the human-in-the-loop methodology pioneered in Simon I
 
 | Deterministic Studio Color Indices |
 +------------------------------------+
+
+</pre>
+
 The NDH-Canvas-Adapter-Enhanced system automates and codifies this relationship. Instead of relying on manual sorting or accepting the arbitrary outputs of unconstrained models, our architecture introduces programmatic control over geometric invariants prior to canvas rendering. It acts as an interpretive layer that translates statistical fluctuations into stable instructions for hardware routing systems via the Tessellation Bee Segmentation Core.
 
 1.2 Theoretical Primitives

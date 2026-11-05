@@ -12,6 +12,9 @@ By routing these chaotic latent paths through a zero-allocation, bare-metal Rust
 1. The Interdisciplinary Telemetry Pipeline
 
 The execution tree maps a continuous, unconstrained generative fiction down to a physical, non-Newtonian paint trail through six increasingly absurd layers of structural containment:
+
+<pre> 
+
 [ THE GENERATIVE Hallucination ] ──► Continuous 14,000-Dimensional Vector Cloud Space
               │
               ▼
@@ -28,6 +31,8 @@ The execution tree maps a continuous, unconstrained generative fiction down to a
               │
               ▼
 [ THE KLIPPER ACTUATOR ]         ──► Discrete Multi-Axis Stepper Motor Micron Primitives (G1/G4)
+
+</pre>
 
 2. Core Mathematical Specification Sheet
 

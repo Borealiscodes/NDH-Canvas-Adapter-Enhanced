@@ -12,7 +12,8 @@ While the tech industry advocates for unmitigated "End-to-End" neural control ov
 
 📐 Architectural Rift Matrix
 
-
+<pre> 
+  
 System Vector	Unconstrained Frontier Models	Coherent Geometric Guidance (NDHCanvasAdapter)
 Dimensional Scale (\(d\))	Hyper-dimensional vector space (\(\mathbb{R}^{14,000}\))	Controlled, finite trajectory manifold (\(\mathbb{R}^{80}\))
 Mathematical Topology	Unbounded semantic clouds governed by concentration of measure	Volume-preserving, non-vanishing Symplectic phase space
@@ -21,6 +22,7 @@ Boundary Protection	Complexity-crushing Softmax gate; erases analog physical gra
 Actuation Target	Non-deterministic, probabilistic weight matrices	Bounded, discrete, dithered ternary stepper primitives
 Hardware State	Chronic runtime jitter, material pooling, fire hazards [10.5281/zenodo.23990320]	Hard real-time microsecond deadline containment [10.5281/zenodo.23990320]
 
+</pre>
 
 🔍 Deep Technical Divergence Analysis
 

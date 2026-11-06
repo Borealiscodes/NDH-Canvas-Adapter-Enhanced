@@ -3,6 +3,7 @@ Here is what these exact hex profiles look like structurally:
 
 🎨 The Frances Hodgkins Chromatic Matrix
 
+<pre>
 
 Visual Anchor	Color Name	Hex Code	RGB Triplets	Aesthetic Heritage & Mapping Zone
 	Ibiza Ochre	#D3A261	(211, 162, 97)	A rich, warm, sun-soaked sand tone reflecting the Mediterranean architectures of Ibiza Harbour (1932).
@@ -12,6 +13,7 @@ Visual Anchor	Color Name	Hex Code	RGB Triplets	Aesthetic Heritage & Mapping Zone
 	Muted Alabaster	#EBE7DF	(235, 231, 223)	An off-white, raw canvas gray-white tone serving as the primary desaturated backdrop and negative space canvas zoning.
 	Deep Madder	#4A2A2B	(74, 42, 43)	A heavy, near-black plum burgundy used to delineate high-contrast silhouettes in works like The Farmer's Daughter.
 
+</pre>
 
 The Satirical Output Path
 
